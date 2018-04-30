@@ -9,7 +9,7 @@ python版数据结构和算法实现的简约版小示例
 ## 实现列表
 
 - [array:数组](array)
-    - [circular_counter：约瑟夫环](array/circular_counter.py)
+    - [circular_counter：约瑟夫环](array/josephus_problem.py)
     - [flatten：数组降维](array/flatten.py)
     - [garage：停车场](array/garage.py)
     - [longest_non_repeat：最长不重复子串](array/longest_non_repeat.py/)
@@ -96,6 +96,7 @@ python版数据结构和算法实现的简约版小示例
     - [swap_in_pairs：链表节点交换](linkedlist/swap_in_pairs.py)
 - [map：映射](map)
     - [hashtable：哈希表](map/hashtable.py)
+    - [separate_chaining_hashtable：拉链法哈希表](map/separate_chaining_hashtable.py)
     - [longest_common_subsequence：最长公共子序列](map/longest_common_subsequence.py)
     - [randomized_set：随机集](map/randomized_set.py)
     - [valid_sudoku：有效数独](map/valid_sudoku.py)

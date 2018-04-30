@@ -1,6 +1,8 @@
 English | [简体中文](https://github.com/yunshuipiao/algorithms/blob/master/README_CN.md)
 
 [![Open Source Helpers](https://www.codetriage.com/keon/algorithms/badges/users.svg)](https://www.codetriage.com/keon/algorithms)
+[![Build Status](https://travis-ci.org/keon/algorithms.svg?branch=master)](https://travis-ci.org/keon/algorithms)
+[![Coverage Status](https://coveralls.io/repos/github/keon/algorithms/badge.svg?branch=master)](https://coveralls.io/github/keon/algorithms?branch=master)
 
 Pythonic Data Structures and Algorithms
 =========================================
@@ -11,12 +13,29 @@ Minimal and clean example implementations of data structures and algorithms in P
 Thanks for your interest in contributing! There are many ways to contribute to this project. [Get started here](CONTRIBUTING.md)
 
 
+## Tests
+
+### Use unittest
+For running all tests write down:
+
+    $ python3 -m unittest discover tests
+
+For running some specific tests you can do this as following (Ex: sort):
+
+    $ python3 -m unittest tests.test_sort
+
+### Use pytest
+For running all tests write down:
+
+    $ python3 -m pytest tests
+
 ## List of Implementations
 
 - [array](array)
-    - [circular_counter](array/circular_counter.py)
+    - [delete_nth](array/delete_nth.py)
     - [flatten](array/flatten.py)
     - [garage](array/garage.py)
+    - [josephus_problem](array/josephus_problem.py)
     - [longest_non_repeat](array/longest_non_repeat.py/)
     - [merge_intervals](array/merge_intervals.py)
     - [missing_ranges](array/missing_ranges.py)
@@ -26,7 +45,6 @@ Thanks for your interest in contributing! There are many ways to contribute to t
     - [three_sum](array/three_sum.py)
     - [two_sum](array/two_sum.py)
     - [move_zeros_to_end](array/move_zeros_to_end.py)
-    - [delete_nth](array/delete_nth.py)
 - [backtrack](backtrack)
     - [general_solution.md](backtrack/)
     - [anagram](backtrack/anagram.py)
@@ -52,10 +70,17 @@ Thanks for your interest in contributing! There are many ways to contribute to t
     - [find_missing_number](bit/find_missing_number.py)
     - [power_of_two](bit/power_of_two.py)
     - [reverse_bits](bit/reverse_bits.py)
-    - [single_number2](bit/single_number2.py)
     - [single_number](bit/single_number.py)
+    - [single_number2](bit/single_number2.py)
+    - [single_number3](bit/single_number3.py)
     - [subsets](bit/subsets.py)
     - [add_bitwise_operator](bit/add_bitwise_operator.py)
+    - [bit_operation](bit/bit_operation.py)
+    - [swap_pair](bit/swap_pair.py)
+    - [find_difference](bit/find_difference.py)
+    - [has_alternative_bit](bit/has_alternative_bit.py)
+    - [insert_bit](bit/insert_bit.py)
+    - [remove_bit](bit/remove_bit.py)
 - [calculator](calculator)
     - [math_parser](calculator/math_parser.py)
 - [dfs](dfs)
@@ -116,6 +141,7 @@ Thanks for your interest in contributing! There are many ways to contribute to t
     - [remove_range](linkedlist/remove_range.py)
 - [map](map)
     - [hashtable](map/hashtable.py)
+    - [separate_chaining_hashtable](map/separate_chaining_hashtable.py)
     - [longest_common_subsequence](map/longest_common_subsequence.py)
     - [randomized_set](map/randomized_set.py)
     - [valid_sudoku](map/valid_sudoku.py)
@@ -128,7 +154,7 @@ Thanks for your interest in contributing! There are many ways to contribute to t
     - [next_bigger](maths/next_bigger.py)
     - [next_perfect_square](maths/next_perfect_square.py)
     - [nth_digit](maths/nth_digit.py)
-    - [prime_test](maths/prime_test.py)
+    - [prime_check](maths/prime_check.py)
     - [primes_sieve_of_eratosthenes](maths/primes_sieve_of_eratosthenes.py)
     - [pythagoras](maths/pythagoras.py)
     - [rabin_miller](maths/rabin_miller.py)
@@ -136,6 +162,7 @@ Thanks for your interest in contributing! There are many ways to contribute to t
     - [sqrt_precision_factor](maths/sqrt_precision_factor.py)
     - [summing_digits](maths/summing_digits.py)
 - [matrix](matrix)
+    - [sudoku_validator](matrix/sudoku_validator.py)
     - [bomb_enemy](matrix/bomb_enemy.py)
     - [copy_transform](matrix/copy_transform.py)
     - [count_paths](matrix/count_paths.py)
@@ -155,6 +182,11 @@ Thanks for your interest in contributing! There are many ways to contribute to t
     - [binary_search](search/binary_search.py)
     - [first_occurance](search/first_occurance.py)
     - [last_occurance](search/last_occurance.py)
+    - [search_insert](search/search_insert.py)
+    - [two_sum](search/two_sum.py)
+    - [search_range](search/search_range.py)
+    - [find_min_rotate](search/find_min_rotate.py)
+    - [search_rotate](search/search_rotate.py)
 - [set](set)
     - [randomized_set](set/randomized_set.py)
     - [set_covering](set/set_covering.py)
@@ -182,6 +214,11 @@ Thanks for your interest in contributing! There are many ways to contribute to t
     - [remove_min](stack/remove_min.py)
     - [is_sorted](stack/is_sorted.py)
 - [strings](strings)
+    - [fizzbuzz](strings/fizzbuzz.py)
+    - [delete_reoccurring_characters](strings/delete_reoccurring_characters.py)
+    - [strip_url_params](strings/strip_url_params.py)
+    - [validate_coordinates](strings/validate_coordinates.py)
+    - [domain_extractor](strings/domain_extractor.py)
     - [merge_string_checker](strings/merge_string_checker.py)
     - [add_binary](strings/add_binary.py)
     - [breaking_bad](strings/breaking_bad.py)
@@ -255,6 +292,8 @@ The repo is maintained by
 * [Rahul Goswami](https://github.com/goswami-rahul)
 * [Christian Bender](https://github.com/christianbender)
 * [Ankit Agarwal](https://github.com/ankit167)
+* [Hai Hoang Dang](https://github.com/danghai)
+* [Saad](https://github.com/SaadBenn)
 
 And thanks to [all the contributors](https://github.com/keon/algorithms/graphs/contributors)
 who helped in building the repo.
