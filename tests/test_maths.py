@@ -1,14 +1,17 @@
-from maths.base_conversion import int2base, base2int
-from maths.extended_gcd import extended_gcd
-from maths.gcd import gcd, lcm
-from maths.generate_strobogrammtic import gen_strobogrammatic, strobogrammatic_in_range
-from maths.is_strobogrammatic import is_strobogrammatic, is_strobogrammatic2
-from maths.next_perfect_square import find_next_square, find_next_square2
-from maths.prime_check import prime_check, prime_check2
-from maths.primes_sieve_of_eratosthenes import primes
-from maths.pythagoras import pythagoras
-from maths.rabin_miller import is_prime
-from maths.rsa import encrypt, decrypt, generate_key
+from algorithms.maths import (
+    int2base, base2int,
+    extended_gcd,
+    gcd, lcm,
+    gen_strobogrammatic, strobogrammatic_in_range,
+    is_strobogrammatic, is_strobogrammatic2,
+    find_next_square, find_next_square2,
+    prime_check, prime_check2,
+    primes,
+    pythagoras,
+    is_prime,
+    encrypt, decrypt, generate_key,
+    combination
+)
 
 import unittest
 
@@ -200,6 +203,17 @@ class TestRSA(unittest.TestCase):
     #         dec = decrypt(en, d, n)
     #         self.assertEqual(data,dec)
 
+class TestCombination(unittest.TestCase):
+    """[summary]
+    Test for the file rsa.py
 
+    Arguments:
+        unittest {[type]} -- [description]
+    """
+
+    def test_combination(self):
+        self.assertEqual(10, combination(5, 2))
+        self.assertEqual(252, combination(10, 5))
+        
 if __name__ == "__main__":
     unittest.main()
