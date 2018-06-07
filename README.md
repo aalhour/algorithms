@@ -1,3 +1,5 @@
+<p align="center"><img width="40%" src="docs/source/_static/algorithms_logo.png" /></p>
+
 English | [简体中文](README_CN.md) | [Deutsch](README_GE.md) | [日本語](README_JP.md) | [한국어](README_KR.md)
 
 [![Open Source Helpers](https://www.codetriage.com/keon/algorithms/badges/users.svg)](https://www.codetriage.com/keon/algorithms)
@@ -32,7 +34,7 @@ For running all tests write down:
 ## Install
 If you want to use the API algorithms in your code, it is as simple as:
 
-    $ pip3 install git+https://github.com/keon/algorithms
+    $ pip3 install algorithms
 
 You can test by creating a python file: (Ex: use `merge_sort` in `sort`)
 
@@ -62,11 +64,11 @@ If you want to uninstall algorithms, it is as simple as:
     - [merge_intervals](algorithms/arrays/merge_intervals.py)
     - [missing_ranges](algorithms/arrays/missing_ranges.py)
     - [plus_one](algorithms/arrays/plus_one.py)
-    - [rotate_array](algorithms/arrays/rotate_array.py)
-    - [summary_ranges](algorithms/arrays/summary_ranges.py)
+    - [rotate](algorithms/arrays/rotate.py)
+    - [summarize_ranges](algorithms/arrays/summarize_ranges.py)
     - [three_sum](algorithms/arrays/three_sum.py)
     - [two_sum](algorithms/arrays/two_sum.py)
-    - [move_zeros_to_end](algorithms/arrays/move_zeros_to_end.py)
+    - [move_zeros](algorithms/arrays/move_zeros.py)
 - [backtrack](algorithms/backtrack)
     - [general_solution.md](algorithms/backtrack/)
     - [anagram](algorithms/backtrack/anagram.py)
@@ -174,6 +176,7 @@ If you want to uninstall algorithms, it is as simple as:
     - [base_conversion](algorithms/maths/base_conversion.py)
     - [combination](algorithms/maths/combination.py)
     - [extended_gcd](algorithms/maths/extended_gcd.py)
+    - [factorial](algorithms/maths/factorial.py)    
     - [gcd/lcm](algorithms/maths/gcd.py)
     - [generate_strobogrammtic](algorithms/maths/generate_strobogrammtic.py)
     - [is_strobogrammatic](algorithms/maths/is_strobogrammatic.py)
@@ -208,19 +211,25 @@ If you want to uninstall algorithms, it is as simple as:
     - [binary_search](algorithms/search/binary_search.py)
     - [first_occurance](algorithms/search/first_occurance.py)
     - [last_occurance](algorithms/search/last_occurance.py)
+    - [linear_search](algorithms/search/linear_search.py)
     - [search_insert](algorithms/search/search_insert.py)
     - [two_sum](algorithms/search/two_sum.py)
     - [search_range](algorithms/search/search_range.py)
     - [find_min_rotate](algorithms/search/find_min_rotate.py)
     - [search_rotate](algorithms/search/search_rotate.py)
+    - [jump_search](algorithms/search/jump_search.py)
 - [set](algorithms/set)
     - [randomized_set](algorithms/set/randomized_set.py)
     - [set_covering](algorithms/set/set_covering.py)
 - [sort](algorithms/sort)
+    - [bitonic_sort](algorithms/sort/bitonic_sort.py)
+    - [bogo_sort](algorithms/sort/bogo_sort.py)
     - [bubble_sort](algorithms/sort/bubble_sort.py)
     - [bucket_sort](algorithms/sort/bucket_sort.py)
+    - [cocktail_shaker_sort](algorithms/sort/cocktail_shaker_sort.py)
     - [comb_sort](algorithms/sort/comb_sort.py)
     - [counting_sort](algorithms/sort/counting_sort.py)
+    - [gnome_sort](algorithms/sort/gnome_sort.py)
     - [heap_sort](algorithms/sort/heap_sort.py)
     - [insertion_sort](algorithms/sort/insertion_sort.py)
     - [meeting_rooms](algorithms/sort/meeting_rooms.py)
@@ -230,7 +239,7 @@ If you want to uninstall algorithms, it is as simple as:
     - [selection_sort](algorithms/sort/selection_sort.py)
     - [shell_sort](algorithms/sort/shell_sort.py)
     - [sort_colors](algorithms/sort/sort_colors.py)
-    - [topsort](algorithms/sort/topsort.py)
+    - [top_sort](algorithms/sort/top_sort.py)
     - [wiggle_sort](algorithms/sort/wiggle_sort.py)
 - [stack](algorithms/stack)
     - [longest_abs_path](algorithms/stack/longest_abs_path.py)
