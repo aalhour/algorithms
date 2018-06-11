@@ -2,6 +2,7 @@
 
 [English](README.md) | [简体中文](README_CN.md) | [Deutsch](README_GE.md) | 日本語 | [한국어](README_KR.md)
 
+[![PyPI version](https://badge.fury.io/py/algorithms.svg)](https://badge.fury.io/py/algorithms)
 [![Open Source Helpers](https://www.codetriage.com/keon/algorithms/badges/users.svg)](https://www.codetriage.com/keon/algorithms)
 [![Build Status](https://travis-ci.org/keon/algorithms.svg?branch=master)](https://travis-ci.org/keon/algorithms)
 [![Coverage Status](https://coveralls.io/repos/github/keon/algorithms/badge.svg?branch=master)](https://coveralls.io/github/keon/algorithms?branch=master)
@@ -37,7 +38,7 @@ Python 3で開発された簡単で明確なデータ構造とアルゴリズム
 
     $ pip3 install git+https://github.com/keon/algorithms
 
-Pythonファイルを作成してテストを行うことができます：（例：「sort」の「merge_sort」を使用）
+Pythonファイルを作成してテストを実行することができます：（例：「sort」の「merge_sort」を使用）
 
 ```python3
 from sort import merge_sort
@@ -68,6 +69,8 @@ if __name__ == "__main__":
     - [rotate](algorithms/arrays/rotate.py)
     - [summarize_ranges](algorithms/arrays/summarize_ranges.py)
     - [three_sum](algorithms/arrays/three_sum.py)
+    - [trimmean](algorithms/arrays/trimmean.py)
+    - [top_1](algorithms/arrays/top_1.py)
     - [two_sum](algorithms/arrays/two_sum.py)
     - [move_zeros](algorithms/arrays/move_zeros.py)
 - [backtrack : バックトラッキング](algorithms/backtrack)
@@ -87,6 +90,7 @@ if __name__ == "__main__":
     - [subsets](algorithms/backtrack/subsets.py)
     - [subsets_unique](algorithms/backtrack/subsets_unique.py)
 - [bfs : 幅優先探索](algorithms/bfs)
+    - [maze_search](algorithms/bfs/maze_search.py)
     - [shortest_distance_from_all_buildings](algorithms/bfs/shortest_distance_from_all_buildings.py)
     - [word_ladder](algorithms/bfs/word_ladder.py)
 - [bit : ビット](algorithms/bit)
@@ -136,6 +140,7 @@ if __name__ == "__main__":
     - [word_break](algorithms/dp/word_break.py)
     - [fibonacci](algorithms/dp/fib.py)
 - [graph : グラフ](algorithms/graph)
+    - [check_bipartite](algorithms/graph/check_bipartite.py)
     - [strongly_connected](algorithms/graph/checkDiGraphStronglyConnected.py)
     - [clone_graph](algorithms/graph/clone_graph.py)
     - [cycle_detection](algorithms/graph/cycle_detection.py)
@@ -230,11 +235,13 @@ if __name__ == "__main__":
     - [cocktail_shaker_sort](algorithms/sort/cocktail_shaker_sort.py)
     - [comb_sort](algorithms/sort/comb_sort.py)
     - [counting_sort](algorithms/sort/counting_sort.py)
+    - [cycle_sort](algorithms/sort/cycle_sort.py)
     - [gnome_sort](algorithms/sort/gnome_sort.py)
     - [heap_sort](algorithms/sort/heap_sort.py)
     - [insertion_sort](algorithms/sort/insertion_sort.py)
     - [meeting_rooms](algorithms/sort/meeting_rooms.py)
     - [merge_sort](algorithms/sort/merge_sort.py)
+    - [pancake_sort](algorithms/sort/pancake_sort.py)
     - [quick_sort](algorithms/sort/quick_sort.py)
     - [radix_sort](algorithms/sort/radix_sort.py)
     - [selection_sort](algorithms/sort/selection_sort.py)
@@ -300,6 +307,8 @@ if __name__ == "__main__":
     - [traversal](algorithms/tree/traversal)
         - [inorder](algorithms/tree/traversal/inorder.py)
         - [level_order](algorithms/tree/traversal/level_order.py)
+        - [postorder](algorithms/tree/traversal/postorder.py)
+        - [preorder](algorithms/tree/traversal/preorder.py)
         - [zigzag](algorithms/tree/traversal/zigzag.py)
     - [trie](algorithms/tree/trie)
         - [add_and_search](algorithms/tree/trie/add_and_search.py)
