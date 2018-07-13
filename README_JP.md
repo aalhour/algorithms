@@ -1,6 +1,6 @@
 <p align="center"><img width="40%" src="docs/source/_static/algorithms_logo.png" /></p>
 
-[English](README.md) | [简体中文](README_CN.md) | [Deutsch](README_GE.md) | 日本語 | [한국어](README_KR.md)
+[English](README.md) | [简体中文](README_CN.md) | [Deutsch](README_GE.md) | 日本語 | [한국어](README_KR.md) | [Português](README_PTBR.md)
 
 [![PyPI version](https://badge.fury.io/py/algorithms.svg)](https://badge.fury.io/py/algorithms)
 [![Open Source Helpers](https://www.codetriage.com/keon/algorithms/badges/users.svg)](https://www.codetriage.com/keon/algorithms)
@@ -61,12 +61,13 @@ if __name__ == "__main__":
     - [flatten](algorithms/arrays/flatten.py)
     - [garage](algorithms/arrays/garage.py)
     - [josephus_problem](algorithms/arrays/josephus.py)
+    - [limit](algorithms/arrays/limit.py)
     - [longest_non_repeat](algorithms/arrays/longest_non_repeat.py/)
     - [max_ones_index](algorithms/arrays/max_ones_index.py)
     - [merge_intervals](algorithms/arrays/merge_intervals.py)
     - [missing_ranges](algorithms/arrays/missing_ranges.py)
     - [plus_one](algorithms/arrays/plus_one.py)
-    - [rotate](algorithms/arrays/rotate.py)
+    - [rotate](algorithms/arrays/rotate.py)
     - [summarize_ranges](algorithms/arrays/summarize_ranges.py)
     - [three_sum](algorithms/arrays/three_sum.py)
     - [trimmean](algorithms/arrays/trimmean.py)
@@ -186,6 +187,7 @@ if __name__ == "__main__":
     - [gcd/lcm](algorithms/maths/gcd.py)
     - [generate_strobogrammtic](algorithms/maths/generate_strobogrammtic.py)
     - [is_strobogrammatic](algorithms/maths/is_strobogrammatic.py)
+    - [modular_exponential](algorithms/maths/modular_exponential.py)
     - [next_bigger](algorithms/maths/next_bigger.py)
     - [next_perfect_square](algorithms/maths/next_perfect_square.py)
     - [nth_digit](algorithms/maths/nth_digit.py)

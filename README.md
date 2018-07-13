@@ -1,6 +1,6 @@
 <p align="center"><img width="40%" src="docs/source/_static/algorithms_logo.png" /></p>
 
-English | [简体中文](README_CN.md) | [Deutsch](README_GE.md) | [日本語](README_JP.md) | [한국어](README_KR.md)
+English | [简体中文](README_CN.md) | [Deutsch](README_GE.md) | [日本語](README_JP.md) | [한국어](README_KR.md) | [Português](README_PTBR.md)
 
 [![PyPI version](https://badge.fury.io/py/algorithms.svg)](https://badge.fury.io/py/algorithms)
 [![Open Source Helpers](https://www.codetriage.com/keon/algorithms/badges/users.svg)](https://www.codetriage.com/keon/algorithms)
@@ -14,7 +14,6 @@ Minimal and clean example implementations of data structures and algorithms in P
 
 ## Contributing
 Thanks for your interest in contributing! There are many ways to contribute to this project. [Get started here](CONTRIBUTING.md)
-
 
 ## Tests
 
@@ -60,18 +59,20 @@ If you want to uninstall algorithms, it is as simple as:
     - [flatten](algorithms/arrays/flatten.py)
     - [garage](algorithms/arrays/garage.py)
     - [josephus_problem](algorithms/arrays/josephus.py)
+    - [limit](algorithms/arrays/limit.py)
     - [longest_non_repeat](algorithms/arrays/longest_non_repeat.py/)
     - [max_ones_index](algorithms/arrays/max_ones_index.py)
     - [merge_intervals](algorithms/arrays/merge_intervals.py)
     - [missing_ranges](algorithms/arrays/missing_ranges.py)
     - [plus_one](algorithms/arrays/plus_one.py)
-    - [rotate](algorithms/arrays/rotate.py)
+    - [rotate](algorithms/arrays/rotate.py)
     - [summarize_ranges](algorithms/arrays/summarize_ranges.py)
     - [three_sum](algorithms/arrays/three_sum.py)
     - [trimmean](algorithms/arrays/trimmean.py)
     - [top_1](algorithms/arrays/top_1.py)
     - [two_sum](algorithms/arrays/two_sum.py)
     - [move_zeros](algorithms/arrays/move_zeros.py)
+    - [n_sum](algorithms/arrays/n_sum.py)
 - [backtrack](algorithms/backtrack)
     - [general_solution.md](algorithms/backtrack/)
     - [anagram](algorithms/backtrack/anagram.py)
@@ -186,6 +187,7 @@ If you want to uninstall algorithms, it is as simple as:
     - [gcd/lcm](algorithms/maths/gcd.py)
     - [generate_strobogrammtic](algorithms/maths/generate_strobogrammtic.py)
     - [is_strobogrammatic](algorithms/maths/is_strobogrammatic.py)
+    - [modular_exponential](algorithms/maths/modular_exponential.py)
     - [next_bigger](algorithms/maths/next_bigger.py)
     - [next_perfect_square](algorithms/maths/next_perfect_square.py)
     - [nth_digit](algorithms/maths/nth_digit.py)
@@ -283,6 +285,13 @@ If you want to uninstall algorithms, it is as simple as:
     - [reverse_words](algorithms/strings/reverse_words.py)
     - [roman_to_int](algorithms/strings/roman_to_int.py)
     - [word_squares](algorithms/strings/word_squares.py)
+    - [unique_morse](algorithms/strings/unique_morse.py)
+    - [judge_circle](algorithms/strings/judge_circle.py)
+    - [strong_password](algorithms/strings/strong_password.py)
+    - [caesar_cipher](algorithms/strings/caesar_cipher.py)
+    - [contain_string](algorithms/strings/contain_string.py)
+    - [count_binary_substring](algorithms/strings/count_binary_substring.py)
+    - [repeat_string](algorithms/strings/repeat_string.py)
 - [tree](algorithms/tree)
     - [bst](algorithms/tree/tree/bst)
         - [array2bst](algorithms/tree/bst/array2bst.py)
@@ -335,6 +344,7 @@ If you want to uninstall algorithms, it is as simple as:
         - [join_with_slash](algorithms/unix/path/join_with_slash.py)
         - [full_path](algorithms/unix/path/full_path.py)
         - [split](algorithms/unix/path/split.py)
+        - [simplify_path](algorithms/unix/path/simplify_path.py)
 - [union-find](algorithms/union-find)
     - [count_islands](algorithms/union-find/count_islands.py)
 

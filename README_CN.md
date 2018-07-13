@@ -1,6 +1,6 @@
 <p align="center"><img width="40%" src="docs/source/_static/algorithms_logo.png" /></p>
 
-[English](README.md) | 简体中文 | [Deutsch](README_GE.md) | [日本語](README_JP.md) | [한국어](README_KR.md)
+[English](README.md) | 简体中文 | [Deutsch](README_GE.md) | [日本語](README_JP.md) | [한국어](README_KR.md) | [Português](README_PTBR.md)
 
 [![PyPI version](https://badge.fury.io/py/algorithms.svg)](https://badge.fury.io/py/algorithms)
 [![Open Source Helpers](https://www.codetriage.com/keon/algorithms/badges/users.svg)](https://www.codetriage.com/keon/algorithms)
@@ -78,6 +78,7 @@ pip3 uninstall -y algorithms
     - [garage：停车场](algorithms/arrays/garage.py)
     - [josephus_problem: 约瑟夫问题](algorithms/arrays/josephus.py)
     - [max_ones_index](algorithms/arrays/max_ones_index.py)
+    - [limit](algorithms/arrays/limit.py)
     - [longest_non_repeat：最长不重复子串](algorithms/arrays/longest_non_repeat.py/) 
     - [merge_intervals：合并重叠间隔](algorithms/arrays/merge_intervals.py)
     - [missing_ranges：遗失的范围](algorithms/arrays/missing_ranges.py)
@@ -182,6 +183,7 @@ pip3 uninstall -y algorithms
     - [primes_sieve_of_eratosthenes：埃拉托色尼的质数筛](algorithms/maths/primes_sieve_of_eratosthenes.py)
     - [generate_strobogrammtic：生成对称数](algorithms/maths/generate_strobogrammtic.py)
     - [is_strobogrammatic：判断对称数](algorithms/maths/is_strobogrammatic.py)
+    - [modular_exponential](algorithms/maths/modular_exponential.py)
     - [nth_digit：第n位](algorithms/maths/nth_digit.py)
     - [rabin_miller：米勒-拉宾素性检验](algorithms/maths/rabin_miller.py)
     - [rsa：rsa加密](algorithms/maths/rsa.py)

@@ -1,48 +1,42 @@
 <p align="center"><img width="40%" src="docs/source/_static/algorithms_logo.png" /></p>
 
-[English](README.md) | [简体中文](README_CN.md) | Deutsch | [日本語](README_JP.md) | [한국어](README_KR.md) | [Português](README_PTBR.md)
+[English](README.md) | [简体中文](README_CN.md) | [Deutsch](README_GE.md) | [日本語](README_JP.md) | [한국어](README_KR.md) | Português
 
 [![PyPI version](https://badge.fury.io/py/algorithms.svg)](https://badge.fury.io/py/algorithms)
 [![Open Source Helpers](https://www.codetriage.com/keon/algorithms/badges/users.svg)](https://www.codetriage.com/keon/algorithms)
 [![Build Status](https://travis-ci.org/keon/algorithms.svg?branch=master)](https://travis-ci.org/keon/algorithms)
 [![Coverage Status](https://coveralls.io/repos/github/keon/algorithms/badge.svg?branch=master)](https://coveralls.io/github/keon/algorithms?branch=master)
 
-Pythonische Datenstrukturen und Algorithmen
+Estruturas de Dados e Algoritmos Pythonicos
 =========================================
 
-In diesem Repository finden Sie eine große Auswahl an Algorithmen und Datenstrukturen implementiert in Python 3.  
+Exemplos de implementações mínimas e limpas de estruturas de dados e algoritmos em Python 3.
 
-## Beteiligen  
+## Contribuir
+Obrigado pelo seu interesse em contribuir! Há muitas maneiras de contribuir para este projeto. [Comece aqui](CONTRIBUTING.md)
 
-Sie können sich gerne auch an diesem Projekt beteiligen. Zum Beispiel selbst Algorithmen und Datenstrukturen beisteuern, oder bereits bestehende Implementierungen verbessern, oder auch dokumentieren. Fühlen Sie sich frei und machen Sie einen Pull-Request. Alternativ können Sie auch den Issue-Tracker benutzen um auf Probleme (Bugs) in bereits bestehenden Implementierungen hinzuweisen.
+## Testes
 
-In diesem Projekt halten wir uns an die [PEP8](https://www.python.org/dev/peps/pep-0008/) Codestyle Konventionen.  
-
-## Tests
-
-### Benutzen der Unittests
-
-Um alle Tests laufen zu lassen, tippen Sie die unten stehende Befehlzeile in die Kommandozeile:   
+### Usando unittest
+Para executar todos os testes, digite:
 
     $ python3 -m unittest discover tests
 
-Um einen besonderen Test laufen zu lassen, tippen Sie folgendes:  
+Para executar algum teste específico, você pode fazer isso da seguinte maneira (Ex.: sort):
 
     $ python3 -m unittest tests.test_sort
 
-### Benutzen von pytest
-
-Zum ausführen aller Tests:  
+### Usando pytest
+Para executar todos os testes, digite:
 
     $ python3 -m pytest tests
 
-## Install
+## Instalar
+Se você quiser usar os algoritmos da API em seu código, é tão simples quanto:
 
-Wenn Sie das Projekt installieren wollen, um es als Module in Ihren Projekten nutzen zu können. Dann tippen Sie unten stehende Befehlzeile in die Kommandozeile:  
+    $ pip3 install algorithms
 
-    $ pip3 install git+https://github.com/keon/algorithms
-
-Sie können die Installation testen in dem Sie unten stehenden Code in eine Datei packen und ausführen.  
+Você pode testar criando um arquivo python: (Ex.: usando `merge_sort` em `sort`)
 
 ```python3
 from algorithms.sort import merge_sort
@@ -53,14 +47,12 @@ if __name__ == "__main__":
     print(my_list)
 ```
 
-## Uninstall
-
-Um das Projekt zu deinstallieren tippen Sie folgendes:  
+## Desinstalar
+Se você deseja desinstalar os algoritmos, é tão simples quanto:
 
     $ pip3 uninstall -y algorithms
 
-
-## Liste von Implementierungen  
+## Lista de Implementações
 
 - [arrays](algorithms/arrays)
     - [delete_nth](algorithms/arrays/delete_nth.py)
@@ -101,9 +93,12 @@ Um das Projekt zu deinstallieren tippen Sie folgendes:
     - [shortest_distance_from_all_buildings](algorithms/bfs/shortest_distance_from_all_buildings.py)
     - [word_ladder](algorithms/bfs/word_ladder.py)
 - [bit](algorithms/bit)
+    - [add_bitwise_operator](algorithms/bit/add_bitwise_operator.py)
+    - [bit_operation](algorithms/bit/bit_operation.py)
     - [bytes_int_conversion](algorithms/bit/bytes_int_conversion.py)
-    - [count_ones](algorithms/bit/count_ones.py)
     - [count_flips_to_convert](algorithms/bit/count_flips_to_convert.py)
+    - [count_ones](algorithms/bit/count_ones.py)
+    - [find_difference](algorithms/bit/find_difference.py)
     - [find_missing_number](algorithms/bit/find_missing_number.py)
     - [flip_bit_longest_sequence](algorithms/bit/flip_bit_longest_sequence.py)
     - [power_of_two](algorithms/bit/power_of_two.py)
@@ -112,10 +107,7 @@ Um das Projekt zu deinstallieren tippen Sie folgendes:
     - [single_number2](algorithms/bit/single_number2.py)
     - [single_number3](algorithms/bit/single_number3.py)
     - [subsets](algorithms/bit/subsets.py)
-    - [add_bitwise_operator](algorithms/bit/add_bitwise_operator.py)
-    - [bit_operation](algorithms/bit/bit_operation.py)
     - [swap_pair](algorithms/bit/swap_pair.py)
-    - [find_difference](algorithms/bit/find_difference.py)
     - [has_alternative_bit](algorithms/bit/has_alternative_bit.py)
     - [insert_bit](algorithms/bit/insert_bit.py)
     - [remove_bit](algorithms/bit/remove_bit.py)
@@ -188,12 +180,12 @@ Um das Projekt zu deinstallieren tippen Sie folgendes:
 - [maths](algorithms/maths)
     - [base_conversion](algorithms/maths/base_conversion.py)
     - [combination](algorithms/maths/combination.py)
+    - [decimal_to_binary_ip](algorithms/maths/decimal_to_binary_ip.py)
     - [extended_gcd](algorithms/maths/extended_gcd.py)
-    - [factorial](algorithms/maths/factorial.py)
+    - [factorial](algorithms/maths/factorial.py)    
     - [gcd/lcm](algorithms/maths/gcd.py)
     - [generate_strobogrammtic](algorithms/maths/generate_strobogrammtic.py)
     - [is_strobogrammatic](algorithms/maths/is_strobogrammatic.py)
-    - [modular_exponential](algorithms/maths/modular_exponential.py)
     - [next_bigger](algorithms/maths/next_bigger.py)
     - [next_perfect_square](algorithms/maths/next_perfect_square.py)
     - [nth_digit](algorithms/maths/nth_digit.py)
@@ -291,6 +283,12 @@ Um das Projekt zu deinstallieren tippen Sie folgendes:
     - [reverse_words](algorithms/strings/reverse_words.py)
     - [roman_to_int](algorithms/strings/roman_to_int.py)
     - [word_squares](algorithms/strings/word_squares.py)
+    - [unique_morse](algorithms/strings/unique_morse.py)
+    - [judge_circle](algorithms/strings/judge_circle.py)
+    - [strong_password](algorithms/strings/strong_password.py)
+    - [caesar_cipher](algorithms/strings/caesar_cipher.py)
+    - [contain_string](algorithms/strings/contain_string.py)
+    - [count_binary_substring](algorithms/strings/count_binary_substring.py)
 - [tree](algorithms/tree)
     - [bst](algorithms/tree/tree/bst)
         - [array2bst](algorithms/tree/bst/array2bst.py)
@@ -338,12 +336,16 @@ Um das Projekt zu deinstallieren tippen Sie folgendes:
     - [pretty_print](algorithms/tree/pretty_print.py)
     - [same_tree](algorithms/tree/same_tree.py)
     - [tree](algorithms/tree/tree.py)
+- [unix](algorithms/unix)
+    - [path](algorithms/unix/path/)
+        - [join_with_slash](algorithms/unix/path/join_with_slash.py)
+        - [full_path](algorithms/unix/path/full_path.py)
+        - [split](algorithms/unix/path/split.py)
 - [union-find](algorithms/union-find)
     - [count_islands](algorithms/union-find/count_islands.py)
 
-## Mitwirkende  
-
-Das Projekt wird von folgenden Personen betreut.  
+## Contribuidores
+O repositório é mantido por
 
 * [Keon Kim](https://github.com/keon)
 * [Rahul Goswami](https://github.com/goswami-rahul)
@@ -352,5 +354,5 @@ Das Projekt wird von folgenden Personen betreut.
 * [Hai Hoang Dang](https://github.com/danghai)
 * [Saad](https://github.com/SaadBenn)
 
-Und danke an alle [Contributors](https://github.com/keon/algorithms/graphs/contributors)
-die geholfen haben das Projekt aufzubauen!  
+Obrigado a [todos os contribuidores](https://github.com/keon/algorithms/graphs/contributors)
+que ajudaram na construção do repositório.

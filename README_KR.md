@@ -1,6 +1,6 @@
 <p align="center"><img width="40%" src="docs/source/_static/algorithms_logo.png" /></p>
 
-[English](README.md) | [简体中文](README_CN.md) | [Deutsch](README_GE.md) | 한국어 | [日本語](README_JP.md)
+[English](README.md) | [简体中文](README_CN.md) | [Deutsch](README_GE.md) | [日本語](README_JP.md) | 한국어 | [Português](README_PTBR.md)
 
 [![PyPI version](https://badge.fury.io/py/algorithms.svg)](https://badge.fury.io/py/algorithms)
 [![Open Source Helpers](https://www.codetriage.com/keon/algorithms/badges/users.svg)](https://www.codetriage.com/keon/algorithms)
@@ -14,7 +14,6 @@ Python 3로 구현한 간단하고 명확한 자료구조와 알고리즘들의 
 
 ## 기여 활동
 프로젝트 활동 참여에 관심을 가져주셔서 감사합니다! 여러가지 방법으로 이 프로젝트에 기여해주세요. [기여 방법 소개](CONTRIBUTING.md)
-
 
 ## 테스트 종류들
 
@@ -60,12 +59,13 @@ if __name__ == "__main__":
     - [flatten](algorithms/arrays/flatten.py)
     - [garage](algorithms/arrays/garage.py)
     - [josephus_problem](algorithms/arrays/josephus.py)
+    - [limit](algorithms/arrays/limit.py)
     - [longest_non_repeat](algorithms/arrays/longest_non_repeat.py/)
     - [max_ones_index](algorithms/arrays/max_ones_index.py)
     - [merge_intervals](algorithms/arrays/merge_intervals.py)
     - [missing_ranges](algorithms/arrays/missing_ranges.py)
     - [plus_one](algorithms/arrays/plus_one.py)
-    - [rotate](algorithms/arrays/rotate.py)
+    - [rotate](algorithms/arrays/rotate.py)
     - [summarize_ranges](algorithms/arrays/summarize_ranges.py)
     - [three_sum](algorithms/arrays/three_sum.py)
     - [trimmean](algorithms/arrays/trimmean.py)
@@ -183,6 +183,7 @@ if __name__ == "__main__":
     - [gcd/lcm](algorithms/maths/gcd.py)
     - [generate_strobogrammtic](algorithms/maths/generate_strobogrammtic.py)
     - [is_strobogrammatic](algorithms/maths/is_strobogrammatic.py)
+    - [modular_exponential](algorithms/maths/modular_exponential.py)
     - [next_bigger](algorithms/maths/next_bigger.py)
     - [next_perfect_square](algorithms/maths/next_perfect_square.py)
     - [nth_digit](algorithms/maths/nth_digit.py)
