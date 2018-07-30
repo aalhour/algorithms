@@ -1,4 +1,4 @@
-<p align="center"><img width="40%" src="docs/source/_static/algorithms_logo.png" /></p>
+  <p align="center"><img src="https://raw.githubusercontent.com/keon/algorithms/master/docs/source/_static/logo/logotype1blue.png"></p>
 
 English | [简体中文](README_CN.md) | [Deutsch](README_GE.md) | [日本語](README_JP.md) | [한국어](README_KR.md) | [Português](README_PTBR.md)
 
@@ -112,6 +112,7 @@ If you want to uninstall algorithms, it is as simple as:
     - [has_alternative_bit](algorithms/bit/has_alternative_bit.py)
     - [insert_bit](algorithms/bit/insert_bit.py)
     - [remove_bit](algorithms/bit/remove_bit.py)
+    - [binary_gap](algorithms/bit/binary_gap.py)
 - [calculator](algorithms/calculator)
     - [math_parser](algorithms/calculator/math_parser.py)
 - [dfs](algorithms/dfs)
@@ -226,6 +227,7 @@ If you want to uninstall algorithms, it is as simple as:
     - [find_min_rotate](algorithms/search/find_min_rotate.py)
     - [search_rotate](algorithms/search/search_rotate.py)
     - [jump_search](algorithms/search/jump_search.py)
+    - [next_greatest_letter](algorithms/search/next_greatest_letter.py)
 - [set](algorithms/set)
     - [randomized_set](algorithms/set/randomized_set.py)
     - [set_covering](algorithms/set/set_covering.py)
@@ -292,6 +294,7 @@ If you want to uninstall algorithms, it is as simple as:
     - [contain_string](algorithms/strings/contain_string.py)
     - [count_binary_substring](algorithms/strings/count_binary_substring.py)
     - [repeat_string](algorithms/strings/repeat_string.py)
+    - [min_distance](algorithms/strings/min_distance.py)
 - [tree](algorithms/tree)
     - [bst](algorithms/tree/tree/bst)
         - [array2bst](algorithms/tree/bst/array2bst.py)
