@@ -1,6 +1,6 @@
-  <p align="center"><img src="https://raw.githubusercontent.com/keon/algorithms/master/docs/source/_static/logo/logotype1blue.png"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/keon/algorithms/master/docs/source/_static/logo/logotype1blue.png"></p>
 
-English | [简体中文](README_CN.md) | [Deutsch](README_GE.md) | [日本語](README_JP.md) | [한국어](README_KR.md) | [Português](README_PTBR.md)
+English | [简体中文](README_CN.md) | [Deutsch](README_GE.md) | [日本語](README_JP.md) | [한국어](README_KR.md) | [Português](README_PTBR.md) | [Français](README_FR.md)
 
 [![PyPI version](https://badge.fury.io/py/algorithms.svg)](https://badge.fury.io/py/algorithms)
 [![Open Source Helpers](https://www.codetriage.com/keon/algorithms/badges/users.svg)](https://www.codetriage.com/keon/algorithms)
@@ -179,6 +179,9 @@ If you want to uninstall algorithms, it is as simple as:
     - [longest_common_subsequence](algorithms/map/longest_common_subsequence.py)
     - [randomized_set](algorithms/map/randomized_set.py)
     - [valid_sudoku](algorithms/map/valid_sudoku.py)
+    - [word_pattern](algorithms/map/word_pattern.py)
+    - [is_isomorphic](algorithms/map/is_isomorphic.py)
+    - [is_anagram](algorithms/map/is_anagram.py)    
 - [maths](algorithms/maths)
     - [base_conversion](algorithms/maths/base_conversion.py)
     - [combination](algorithms/maths/combination.py)
@@ -231,6 +234,7 @@ If you want to uninstall algorithms, it is as simple as:
 - [set](algorithms/set)
     - [randomized_set](algorithms/set/randomized_set.py)
     - [set_covering](algorithms/set/set_covering.py)
+    - [find_keyboard_row](algorithms/set/find_keyboard_row.py)
 - [sort](algorithms/sort)
     - [bitonic_sort](algorithms/sort/bitonic_sort.py)
     - [bogo_sort](algorithms/sort/bogo_sort.py)
@@ -295,6 +299,10 @@ If you want to uninstall algorithms, it is as simple as:
     - [count_binary_substring](algorithms/strings/count_binary_substring.py)
     - [repeat_string](algorithms/strings/repeat_string.py)
     - [min_distance](algorithms/strings/min_distance.py)
+    - [longest_common_prefix](algorithms/strings/longest_common_prefix.py)
+    - [rotate](algorithms/strings/rotate.py)
+    - [first_unique_char](algorithms/strings/first_unique_char.py)
+    - [repeat_substring](algorithms/strings/repeat_substring.py)     
 - [tree](algorithms/tree)
     - [bst](algorithms/tree/tree/bst)
         - [array2bst](algorithms/tree/bst/array2bst.py)
@@ -350,6 +358,8 @@ If you want to uninstall algorithms, it is as simple as:
         - [simplify_path](algorithms/unix/path/simplify_path.py)
 - [union-find](algorithms/union-find)
     - [count_islands](algorithms/union-find/count_islands.py)
+- [machine-learning](algorithms/machine-learning)
+    - [nearest neighbor classification](algorithms/machine-learning/nearest_neighbor.py)
 
 ## Contributors
 The repo is maintained by
