@@ -1,11 +1,9 @@
-<p align="center"><img src="https://raw.githubusercontent.com/keon/algorithms/master/docs/source/_static/logo/logotype1blue.png"></p>
-
-English | [简体中文](README_CN.md) | [Deutsch](README_GE.md) | [日本語](README_JP.md) | [한국어](README_KR.md) | [Português](README_PTBR.md) | [Français](README_FR.md) | [Español](README_ES.md)
-
 [![PyPI version](https://badge.fury.io/py/algorithms.svg)](https://badge.fury.io/py/algorithms)
 [![Open Source Helpers](https://www.codetriage.com/keon/algorithms/badges/users.svg)](https://www.codetriage.com/keon/algorithms)
 [![Build Status](https://travis-ci.org/keon/algorithms.svg?branch=master)](https://travis-ci.org/keon/algorithms)
 [![Coverage Status](https://coveralls.io/repos/github/keon/algorithms/badge.svg?branch=master)](https://coveralls.io/github/keon/algorithms?branch=master)
+
+<p align="center"><img src="https://raw.githubusercontent.com/keon/algorithms/master/docs/source/_static/logo/logotype1blue.png"></p>
 
 Pythonic Data Structures and Algorithms
 =========================================
@@ -115,12 +113,18 @@ If you want to uninstall algorithms, it is as simple as:
     - [binary_gap](algorithms/bit/binary_gap.py)
 - [calculator](algorithms/calculator)
     - [math_parser](algorithms/calculator/math_parser.py)
+- [compression](algorithms/compression)
+    - [huffman_coding](algorithms/compression/huffman_coding.py)
+    - [rle_compression](algorithms/compression/rle_compression.py)
+    - [elias](algorithms/compression/elias.py)
 - [dfs](algorithms/dfs)
     - [all_factors](algorithms/dfs/all_factors.py)
     - [count_islands](algorithms/dfs/count_islands.py)
     - [pacific_atlantic](algorithms/dfs/pacific_atlantic.py)
     - [sudoku_solver](algorithms/dfs/sudoku_solver.py)
     - [walls_and_gates](algorithms/dfs/walls_and_gates.py)
+- [distribution](algorithms/distribution)
+    - [histogram](algorithms/distribution/histogram.py)
 - [dp](algorithms/dp)
     - [buy_sell_stock](algorithms/dp/buy_sell_stock.py)
     - [climbing_stairs](algorithms/dp/climbing_stairs.py)
@@ -128,6 +132,7 @@ If you want to uninstall algorithms, it is as simple as:
     - [combination_sum](algorithms/dp/combination_sum.py)
     - [egg_drop](algorithms/dp/egg_drop.py)
     - [house_robber](algorithms/dp/house_robber.py)
+    - [int_divide](algorithms/dp/int_divide.py)
     - [job_scheduling](algorithms/dp/job_scheduling.py)
     - [knapsack](algorithms/dp/knapsack.py)
     - [longest_increasing](algorithms/dp/longest_increasing.py)
@@ -149,6 +154,7 @@ If you want to uninstall algorithms, it is as simple as:
     - [find_all_cliques](algorithms/graph/find_all_cliques.py)
     - [find_path](algorithms/graph/find_path.py)
     - [graph](algorithms/graph/graph.py)
+    - [dijkstra](algorithms/graph/dijkstra.py)
     - [markov_chain](algorithms/graph/markov_chain.py)
     - [minimum_spanning_tree](algorithms/graph/minimum_spanning_tree.py)
     - [satisfiability](algorithms/graph/satisfiability.py)
@@ -159,6 +165,8 @@ If you want to uninstall algorithms, it is as simple as:
     - [skyline](algorithms/heap/skyline.py)
     - [sliding_window_max](algorithms/heap/sliding_window_max.py)
     - [binary_heap](algorithms/heap/binary_heap.py)
+- [iterables](algorithms/iterables)
+    - [convolved](algorithms/iterables/convolved.py)
     - [k_closest_points](algorithms/heap/k_closest_points.py)
 - [linkedlist](algorithms/linkedlist)
     - [add_two_numbers](algorithms/linkedlist/add_two_numbers.py)
@@ -187,6 +195,7 @@ If you want to uninstall algorithms, it is as simple as:
 - [maths](algorithms/maths)
     - [base_conversion](algorithms/maths/base_conversion.py)
     - [combination](algorithms/maths/combination.py)
+    - [cosine_similarity](algorithms/maths/cosine_similarity.py)
     - [decimal_to_binary_ip](algorithms/maths/decimal_to_binary_ip.py)
     - [euler_totient](algorithms/maths/euler_totient.py)
     - [extended_gcd](algorithms/maths/extended_gcd.py)
@@ -212,12 +221,14 @@ If you want to uninstall algorithms, it is as simple as:
     - [copy_transform](algorithms/matrix/copy_transform.py)
     - [count_paths](algorithms/matrix/count_paths.py)
     - [matrix_rotation.txt](algorithms/matrix/matrix_rotation.txt)
+    - [matrix_multiplication](algorithms/matrix/multiply.py)
     - [rotate_image](algorithms/matrix/rotate_image.py)
     - [search_in_sorted_matrix](algorithms/matrix/search_in_sorted_matrix.py)
     - [sparse_dot_vector](algorithms/matrix/sparse_dot_vector.py)
     - [sparse_mul](algorithms/matrix/sparse_mul.py)
     - [spiral_traversal](algorithms/matrix/spiral_traversal.py)
-	- [crout_matrix_decomposition](algorithms/matrix/crout_matrix_decomposition.py
+	- [crout_matrix_decomposition](algorithms/matrix/crout_matrix_decomposition.py)
+	- [cholesky_matrix_decomposition](algorithms/matrix/cholesky_matrix_decomposition.py)
 - [queues](algorithms/queues)
     - [max_sliding_window](algorithms/queues/max_sliding_window.py)
     - [moving_average](algorithms/queues/moving_average.py)
@@ -339,6 +350,7 @@ If you want to uninstall algorithms, it is as simple as:
     - [trie](algorithms/tree/trie)
         - [add_and_search](algorithms/tree/trie/add_and_search.py)
         - [trie](algorithms/tree/trie/trie.py)
+    - [b_tree](algorithms/tree/b_tree.py)
     - [binary_tree_paths](algorithms/tree/binary_tree_paths.py)
     - [bin_tree_to_list](algorithms/tree/bin_tree_to_list.py)
     - [deepest_left](algorithms/tree/deepest_left.py)
@@ -364,18 +376,9 @@ If you want to uninstall algorithms, it is as simple as:
         - [simplify_path](algorithms/unix/path/simplify_path.py)
 - [union-find](algorithms/union-find)
     - [count_islands](algorithms/union-find/count_islands.py)
-- [machine-learning](algorithms/machine-learning)
-    - [nearest neighbor classification](algorithms/machine-learning/nearest_neighbor.py)
+
 
 ## Contributors
-The repo is maintained by
 
-* [Keon Kim](https://github.com/keon)
-* [Rahul Goswami](https://github.com/goswami-rahul)
-* [Christian Bender](https://github.com/christianbender)
-* [Ankit Agarwal](https://github.com/ankit167)
-* [Hai Hoang Dang](https://github.com/danghai)
-* [Saad](https://github.com/SaadBenn)
-
-And thanks to [all the contributors](https://github.com/keon/algorithms/graphs/contributors)
+Thanks to [all the contributors](https://github.com/keon/algorithms/graphs/contributors)
 who helped in building the repo.
